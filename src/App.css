@@ -1,0 +1,193 @@
+  @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;700&display=swap');
+
+  :root {
+    --dark-grey: #212428;
+    --light-grey: #b0b3bb;
+    --red: #ff014d;
+    --white: #ffffff;
+  }
+
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Kanit', sans-serif;
+  }
+
+  body {
+    background-color: var(--dark-grey);
+  }
+
+  a {
+    color: var(--light-grey);
+    text-decoration: none;
+    transition: color 1s;
+  }
+
+  a:hover {
+    transition: color 1s;
+    color: var(--white);
+  }
+
+  li {
+    margin: 0rem 1rem;
+  }
+
+  p {
+    color: var(--light-grey);
+    font-weight: 300;
+    font-size: 1.5rem;
+  }
+
+  h1 {
+    font-size: 5rem;
+    line-height: 100px;
+    color: var(--white);
+  }
+
+  h2 {
+    font-size: 2.5rem;
+    color: var(--white);
+  }
+
+  hr {
+    margin: 20vh 0px;
+    border-color: var(--red);
+  }
+
+  .name {
+    display: inline;
+    font-size: 5rem;
+    font-weight: 700;
+  }
+
+  #root {
+    margin: 0 auto;
+    padding: 0.5rem 2rem;
+  }
+
+  #info-section {
+    text-align: start;
+    line-height: 50px;
+    justify-content: space-around;
+    align-items: space-around;
+    flex-direction: column;
+    height: 1000px;
+  }
+
+  .profile-section {
+    flex-direction: row;
+  }
+
+  .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .navbar {
+    height: 70px;
+    justify-content: space-between;
+    flex-direction: row;
+    letter-spacing: 2px;
+    padding: 10px;
+    font-weight: 700;
+  }
+
+  .colorful-letter {
+    cursor: pointer;
+    padding: 0px;
+    margin: 0px;
+    font-size: 3rem;
+    transition: color 1s;
+    font-weight: 700;
+    color: var(--white);
+  }
+
+  .colorful-letter:hover {
+    color: var(--red);
+    transition: color 0.2s;
+  }
+
+  .links-ul {
+    list-style-type: none;
+    flex-direction: row;
+  }
+
+  .gradient-button {
+    padding: 0.5rem 1.5rem;
+    background: rgb(30, 32, 36);
+    background: linear-gradient(135deg, rgba(30, 32, 36, 1) 0%, rgba(35, 39, 43, 1) 100%);
+    border-radius: 5px;
+    box-shadow: rgba(255, 255, 255, 0.09) 0px 5.5px 17.5px 1px;
+    transition: box-shadow 1s, color 1s, fill 1s;
+    fill: var(--light-grey);
+    color: var(--red);
+  }
+
+  .gradient-button:hover {
+    transition: box-shadow 1s, color 1s, fill 1s;
+    box-shadow: rgba(255, 255, 255, 0.301) 0px 5.5px 17.5px 1px;
+    cursor: pointer;
+    color: var(--white);
+    fill: var(--white);
+  }
+
+  .gradient-card {
+    padding: 0.5rem 1.5rem;
+    background: rgb(30, 32, 36);
+    background: linear-gradient(135deg, rgba(30, 32, 36, 1) 0%, rgba(35, 39, 43, 1) 100%);
+    border-radius: 5px;
+    box-shadow: rgba(255, 255, 255, 0.09) 0px 5.5px 17.5px 1px;
+  }
+
+  .button-text {
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .red {
+    color: var(--red);
+  }
+
+  .small-text {
+    font-size: 1rem;
+  }
+
+  .socials-section {
+    margin: 10vh 0px 0px 0px;
+  }
+
+  .socials {
+    justify-content: start;
+    flex-direction: row;
+  }
+
+  .social-icon {
+    padding: 0px;
+    width: 50px;
+    height: 50px;
+    margin: 15px 10px 10px 0px;
+  }
+
+  .icon {
+    width: 20px;
+  }
+
+  .image {
+    width: 500px;
+    /* height: 500px; */
+    margin: 0px;
+  }
+
+  .image-card {
+    max-height: 600px;
+    align-items: end;
+    padding: 0px;
+  }
+
+  .main-container {
+    max-width: 1280px;
+    margin: 15vh auto;
+  }
