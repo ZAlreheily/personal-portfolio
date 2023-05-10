@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar'
 import Content from './components/Content'
 import ProfileSection from './components/ProfileSection'
+import SkillsSection from './SkillsSection'
 import './App.css'
 
 function App() {
@@ -9,8 +10,7 @@ function App() {
     <Navbar />
     <Content>
       <ProfileSection />
-      <ProfileSection />
-
+      <SkillsSection />
     </Content>
   </>
   )

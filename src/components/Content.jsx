@@ -7,10 +7,10 @@ const Content = ({ children }) => {
         <div className='main-container'>
             {arrayChildren.map((child, i) => {
                 if (i != arrayChildren.length - 1)
-                    return <>
+                    return <div key={`Section ${i}`}>
                         {child}
                         <Line />
-                    </>
+                    </div>
                 else {
                     return child
                 }
