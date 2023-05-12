@@ -16,6 +16,7 @@
 
   body {
     background-color: var(--dark-grey);
+    padding: 0;
   }
 
   a {
@@ -69,7 +70,7 @@
 
   #root {
     margin: 0 auto;
-    padding: 0.5rem 2rem;
+    padding: 0;
   }
 
   #info-section {
@@ -93,12 +94,16 @@
   }
 
   .navbar {
+    position: sticky;
+    top: 0;
     height: 70px;
     justify-content: space-between;
     flex-direction: row;
     letter-spacing: 2px;
     padding: 10px;
     font-weight: 700;
+    background-color: var(--dark-grey);
+    width: 100%;
   }
 
   .colorful-letter {
@@ -114,6 +119,10 @@
   .colorful-letter:hover {
     color: var(--red);
     transition: color 0.2s;
+  }
+
+  .colorful-name{
+    margin: 0.5rem 2rem;
   }
 
   .links-ul {
@@ -257,10 +266,10 @@
     aspect-ratio: 4 / 3;
   }
 
-  .project-name{
+  .project-name {
     font-size: 2rem;
   }
 
-  .pointer{
+  .pointer {
     cursor: pointer;
   }

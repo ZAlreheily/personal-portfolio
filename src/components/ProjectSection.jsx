@@ -6,10 +6,10 @@ import 'aos/dist/aos.css'
 
 const ProjectSection = () => {
     useEffect(() => {
-        Aos.init({ duration: 1000 });
+        Aos.init({ duration: 1000, once: true });
     }, []);
     return (
-        <div data-aos='fade-down' id='projects-section'>
+        <div data-aos='fade-left' id='projects-section'>
             <h2 className='red'>Projects</h2>
             <CardsHolder>
                 <ProjectCard

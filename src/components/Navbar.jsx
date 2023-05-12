@@ -1,19 +1,23 @@
 import React from 'react'
+import { Link } from 'react-scroll'
 import GradiantButton from './GradiantButton'
 import ColorfulName from './ColorfulName'
 
 const Navbar = () => {
     return (
+        <>        
         <div className='navbar flex'>
-            <ColorfulName/>
+            <ColorfulName />
             <ul className='links-ul flex'>
-                <li><a href="#info-section">Home</a></li>
-                <li><a href="">Education</a></li>
-                <li><a href="#skills-section">Skills</a></li>
-                <li><a href="#projects-section">Projects</a></li>
+                <li className='pointer'><Link to="profile-section" spy={true} smooth={true} offset={-100} duration={500} >Home</Link></li>
+                <li className='pointer'><Link to="" spy={true} smooth={true} offset={-100} duration={500} >Education</Link></li>
+                <li className='pointer'><Link to="skills-section" spy={true} smooth={true} offset={-100} duration={500} >Skills</Link></li>
+                <li className='pointer'><Link to="projects-section" spy={true} smooth={true} offset={-100} duration={500} >Projects</Link></li>
                 <li><GradiantButton><span className='button-text'>Contact Me</span></GradiantButton></li>
             </ul>
-        </div>)
+        </div>
+        </>
+        )
 }
 
 export default Navbar

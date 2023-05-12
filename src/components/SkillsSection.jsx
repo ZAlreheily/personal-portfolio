@@ -9,7 +9,7 @@ const SkillsSection = () => {
         Aos.init({ duration: 1000 });
     }, []);
     return (
-        <div data-aos='fade-down' id='skills-section'>
+        <div data-aos='fade-right' id='skills-section'>
             <h2 className='red'>Skills</h2>
             <CardsHolder>
                 <SkillCard

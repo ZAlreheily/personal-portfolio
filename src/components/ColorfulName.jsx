@@ -2,7 +2,7 @@ import React from 'react'
 
 const ColorfulName = () => {
     return (
-        <div className='flex'>
+        <div className='colorful-name flex'>
             <div className='flex'>
                 <p className='colorful-letter'>Z</p>
                 <p className='colorful-letter'>I</p>
