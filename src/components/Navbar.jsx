@@ -10,7 +10,7 @@ const Navbar = () => {
                 <li><a href="#info-section">Home</a></li>
                 <li><a href="">Education</a></li>
                 <li><a href="#skills-section">Skills</a></li>
-                <li><a href="">Projects</a></li>
+                <li><a href="#projects-section">Projects</a></li>
                 <li><GradiantButton><span className='button-text'>Contact Me</span></GradiantButton></li>
             </ul>
         </div>)

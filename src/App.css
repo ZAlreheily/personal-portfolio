@@ -1,4 +1,4 @@
-  @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;700&display=swap');
 
   :root {
     --dark-grey: #212428;
@@ -48,9 +48,13 @@
   h2 {
     font-size: 2.5rem;
     color: var(--white);
+    font-weight: 400;
   }
 
-  h3 {}
+  h3 {
+    font-weight: 400;
+    color: var(--white);
+  }
 
   hr {
     margin: 20vh 0px;
@@ -182,8 +186,7 @@
   }
 
   .image {
-    width: 500px;
-    margin: 0px;
+    width: 28rem;
   }
 
   .image-card {
@@ -200,9 +203,8 @@
 
   .cards {
     margin: 50px 0px 0px 0px;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
-    column-count: 1;
   }
 
   .skill-card {
@@ -214,7 +216,7 @@
     align-items: start;
   }
 
-  .skill-li {
+  .card-li {
     list-style-type: none;
     margin: 0px 20px;
   }
@@ -237,4 +239,28 @@
   .hover-effect:hover {
     transition: box-shadow 1s;
     box-shadow: rgba(255, 255, 255, 0.301) 0px 5.5px 17.5px 1px;
+  }
+
+  .project-card {
+    max-width: 387px;
+    width: 387px;
+    height: 500px;
+    fill: var(--red);
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .project-image {
+    max-width: 100%;
+    border-radius: 5px;
+    margin: 10px 0px;
+    aspect-ratio: 4 / 3;
+  }
+
+  .project-name{
+    font-size: 2rem;
+  }
+
+  .pointer{
+    cursor: pointer;
   }

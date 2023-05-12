@@ -1,11 +1,16 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import Socials from './Socials'
 import PhotoSection from './PhotoSection'
+import Aos from 'aos';
+import 'aos/dist/aos.css'
 
 const ProfileSection = () => {
+    useEffect(() => {
+        Aos.init({ duration: 1000 });
+    }, []);
     return (
-        <div className='profile-section flex'>
-            <div id='info-section flex'>
+        <div data-aos='fade-down' className='profile-section flex'>
+            <div  id='info-section flex'>
                 <div>
                     <p className='small-text'>WELCOME TO MY PORTFOLIO</p>
                     <h1>Hi, I'm <p className="name red">Ziad</p></h1>

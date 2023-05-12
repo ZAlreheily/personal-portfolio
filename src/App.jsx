@@ -1,8 +1,13 @@
 import Navbar from './components/Navbar'
 import Content from './components/Content'
 import ProfileSection from './components/ProfileSection'
-import SkillsSection from './SkillsSection'
+import SkillsSection from './components/SkillsSection'
+import ProjectSection from './components/ProjectSection'
 import './App.css'
+
+// slow slide links click
+// sticky navbar
+// progress bar
 
 function App() {
 
@@ -11,6 +16,7 @@ function App() {
     <Content>
       <ProfileSection />
       <SkillsSection />
+      <ProjectSection/>
     </Content>
   </>
   )
