@@ -15,7 +15,8 @@ const ProfileSection = () => {
                     <p className='small-text'>WELCOME TO MY PORTFOLIO</p>
                     <h1>Hi, I'm <p className="name red">Ziad</p></h1>
                     <h2>a Software Engineer.</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos similique impedit, in explicabo provident nihil, ipsam quod veritatis, soluta labore commodi quas nulla quidem. Consectetur quidem mollitia tempore eius error.</p>
+                    <p>
+                    I am a <span className='red'>software engineering</span> student experienced in <span className='red'>full-stack development</span>, with a strong interest in <span className='red'>cybersecurity</span>. Explore my portfolio to see my projects and achievements in creating user-friendly websites and enhancing <span className='red'>application security</span>.</p>
                 </div>
                 <div className='socials-section'>
                     <p className='small-text'>FIND ME IN</p>

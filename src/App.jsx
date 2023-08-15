@@ -3,22 +3,27 @@ import Content from './components/Content'
 import ProfileSection from './components/ProfileSection'
 import SkillsSection from './components/SkillsSection'
 import ProjectSection from './components/ProjectSection'
+import ResumeSection from './components/ResumeSection'
+import ContactSection from './components/ContactSection'
 import ProgressBar from "react-scroll-progress-bar";
+import Footer from './components/Footer'
 import './App.css'
-
-// progress bar
-// mobile version
 
 function App() {
 
   return (<>
-              <ProgressBar bgcolor= '#ff014d'/>
     <Navbar />
-    <Content>
-      <ProfileSection />
-      <SkillsSection />
-      <ProjectSection/>
-    </Content>
+    <ProgressBar bgcolor='#ff014d' height='5px' />
+    <div className='main'>
+      <Content>
+        <ProfileSection />
+        <ResumeSection />
+        <SkillsSection />
+        <ProjectSection />
+        <ContactSection />
+        <Footer/>
+      </Content>
+    </div>
   </>
   )
 }

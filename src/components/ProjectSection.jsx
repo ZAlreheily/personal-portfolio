@@ -13,42 +13,36 @@ const ProjectSection = () => {
             <h2 className='red'>Projects</h2>
             <CardsHolder>
                 <ProjectCard
-                    title='Personal port'
-                    tool='React'
-                    img='personal-potfolio.jpg'
-                    url='https://github.com/ZAlreheily/personal-portfolio'
+                    title='Ecommerce REST API'
+                    tool='Node JS, Express JS and MongoDB'
+                    img='ecommerce-api.jpg'
+                    url='https://github.com/ZAlreheily/ecommerce-rest-api'
                 />
                 <ProjectCard
                     title='Student GPA Calculator'
                     tool='Flutter'
-                    img='personal-potfolio.jpg'
-                    url='https://github.com/ZAlreheily/personal-portfolio'
+                    img='gpa-calculator.jpg'
+                    url='https://github.com/ZAlreheily/Student_GPA_Calculator'
+                />
+
+                <ProjectCard
+                    title='Weather App'
+                    tool='React'
+                    img='weather.jpg'
+                    url='https://github.com/ZAlreheily/weather-react-app'
                 />
                 <ProjectCard
-                    title='Personal port'
-                    tool='React'
-                    img='personal-potfolio.jpg'
-                    url='https://github.com/ZAlreheily/personal-portfolio'
+                    title='Games Store'
+                    tool='HTML, CSS and Node JS'
+                    img='game-store.jpg'
+                    url='https://github.com/ZAlreheily/game-store'
                 />
-            </CardsHolder>
-            <CardsHolder>
+
                 <ProjectCard
-                    title='Personal port'
-                    tool='React'
-                    img='personal-potfolio.jpg'
-                    url='https://github.com/ZAlreheily/personal-portfolio'
-                />
-                <ProjectCard
-                    title='Personal port'
-                    tool='React'
-                    img='personal-potfolio.jpg'
-                    url='https://github.com/ZAlreheily/personal-portfolio'
-                />
-                <ProjectCard
-                    title='Personal port'
-                    tool='React'
-                    img='personal-potfolio.jpg'
-                    url='https://github.com/ZAlreheily/personal-portfolio'
+                    title='Event Manager'
+                    tool='HTML, CSS and Node JS'
+                    img='event-manager.jpg'
+                    url='https://github.com/ZAlreheily/aazif-backend'
                 />
             </CardsHolder>
         </div>

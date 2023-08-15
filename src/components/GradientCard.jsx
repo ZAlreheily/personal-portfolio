@@ -1,8 +1,8 @@
 import React from 'react'
 
-const GradientCard = ({ children, classes = '' }) => {
+const GradientCard = ({ children, classes = '', onClick }) => {
     return (
-        <div className={`gradient-card ${classes}`}>
+        <div className={`gradient-card ${classes}`} onClick={onClick}>
             {children}
         </div>
     )

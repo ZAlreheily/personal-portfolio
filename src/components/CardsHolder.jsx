@@ -27,7 +27,7 @@ import React, { Children } from 'react'
 
 const CardsHolder = ({ children }) => {
     return (
-        <div className='cards flex' >
+        <div className='cards grid' >
             {children}
         </div>
     )
