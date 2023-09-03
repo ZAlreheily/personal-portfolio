@@ -489,6 +489,7 @@
     .main-container {
       overflow-x: hidden;
       padding: 0px 10px;
+      margin: 3vh auto 15vh auto;
     }
 
   }
