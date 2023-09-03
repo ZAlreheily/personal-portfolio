@@ -9,8 +9,8 @@ const ProfileSection = () => {
         Aos.init({ duration: 1000 });
     }, []);
     return (
-        <div data-aos='fade-down' className='flex' id='profile-section'>
-            <div  id='info-section flex'>
+                <div data-aos='fade-down' className='flex' id='profile-section'>
+        <div  id='info-section flex'>
                 <div>
                     <p className='small-text'>WELCOME TO MY PORTFOLIO</p>
                     <h1>Hi, I'm <p className="name red">Ziad</p></h1>

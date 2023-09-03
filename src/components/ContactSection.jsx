@@ -7,7 +7,7 @@ const ContactSection = () => {
       <h2 className='red'>Contact Me</h2>
       <GradientCard classes='contact-me flex'>
         <GradientCard classes='hover-effect flex contact-img-container'>
-          <img src="/head.jpg" alt="Ziad Alreheily" className='contact-img' />
+          <img src="/head.png" alt="Ziad Alreheily" className='contact-img' />
         </GradientCard>
         <h2 className='contact-title red'>Ziad Alreheily</h2>
         <p><span className='red'>Email:&emsp;</span><a href='mailto:Ziyad1913@gmail.com'>Ziyad1913@gmail.com</a></p>

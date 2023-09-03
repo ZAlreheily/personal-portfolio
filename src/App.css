@@ -284,10 +284,6 @@
     cursor: pointer;
   }
 
-  .main {
-    max-width: 95%;
-    margin: 0 auto;
-  }
 
   .resume-selector {
     margin-top: 50px;
@@ -456,7 +452,7 @@
     }
 
     .project-name {
-      font-size: 1.2rem;
+      font-size: 1.4rem;
     }
 
     .project-tool {
@@ -465,6 +461,10 @@
 
     .colorful-name {
       margin: 0.5rem 0px;
+    }
+
+    .colorful-letter {
+      font-size: 2.8rem;
     }
 
     h2{
@@ -481,4 +481,14 @@
     .links-ul{
       display: none;
     }
+
+    hr {
+      margin: 8vh 0px;
+    }
+
+    .main-container {
+      overflow-x: hidden;
+      padding: 0px 10px;
+    }
+
   }

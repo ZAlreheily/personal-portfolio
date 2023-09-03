@@ -4,7 +4,7 @@ import GradientCard from './GradientCard'
 const PhotoSection = () => {
   return (
     <GradientCard classes='image-card hover-effect flex'>
-        <img src="/ziad-photo.jpg" alt="ziad" className='image' />
+        <img src="/ziad-photo.webp" alt="ziad alreheily" className='image' />
     </GradientCard>
   )
 }

@@ -22,7 +22,8 @@ const ExperienceSection = () => {
                 name="Cybersecurity Summer Intern"
                 company='YANPET - SABIC Affiliate'
                 duration='June 2023 - Aug 2023'
-                description=''
+                description={`Collaborated with the cybersecurity team to implement cybersecurity measures for Operational Technology (OT) systems at Yanpet.`}
+                
             />
         </div>
     )
